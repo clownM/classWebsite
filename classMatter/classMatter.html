@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>班级风采</title>
+        <link href="classMatter.less" rel="stylesheet/less">
+        <script src="../res/less.min.js"></script>
+    </head>
+    <body>
+        <section id="thumbnail">
+            <div><img src="images/4(1).jpg" alt="thumb01"></div>
+            <div><img src="images/4(2).jpg" alt="thumb02"></div>
+            <div><img src="images/4(3).jpg" alt="thumb03"></div>
+            <div><img src="images/4(4).jpg" alt="thumb04"></div>  
+        </section>
+        <section id="question">
+            <h2>班级风采：</h2>
+            <div id="d1"><img src="images/plus.png">西湖行</div>
+            <p id="p1">大一第一学期，为了响应学校的号召，举办团日活动增进同学间的情谊。在一个天气晴朗的周末，全班同学在班长和团支书的带领下，一起骑车去西湖，尽管路途遥远，路上状况不断，但是同学之间互帮互助，使得这次活动圆满成功。通过此次活动，大家彼此更加熟悉，也更有默契，我们的班级也更有凝聚力。</p>
+            <div id="d2"><img src="images/plus.png">种花</div>
+            <p id="p2">我们都知道，向日葵花田和油菜花田是我们浙商大最具特色的风景线，每年花期的时候，都会吸引很多人前来观赏。学校给了每个学院一定的名额，可以让学生亲自去种花，很荣幸我们班申请到了这个名额，所以在周四下午全班一起来到向日葵花田，一起劳作。</p>
+            <div id="d3"><img src="images/plus.png">志愿者</div>
+            <p id="p3">都说大学生是未来社会最新鲜的血液，那么作为社会主义的接班人，我们每个人都应该具有奉献精神，所以在一个周末，班级部分同学在学长的带领下来到东站做志愿者。</p>
+            <div id="d4"><img src="images/plus.png">感恩班会</div>
+            <p id="p4">人的一生中，总会接受很多很多人的帮助，家人、朋友还有陌生人等等。别人给予你的帮助，你都应该有一颗感恩的心，为此我们班级举办了一次以“感恩为主题”的班会。</p>
+        </section>
+        <section id="final">
+            <h2>学生风采：</h2>
+            <video id="myVideo" width="480" height="320" poster="video/letter.png" controls>
+		    <source src="video/letter.mp4">
+	        </video>
+	        <canvas id="myCanvas" width="480" height="320"></canvas>
+	          <div class="button">
+                <canvas width="50" height="50"></canvas>
+		        <canvas width="50" height="50"></canvas>
+		        <canvas width="50" height="50"></canvas>
+		        <canvas width="50" height="50"></canvas>
+		        <canvas width="50" height="50"></canvas>
+	         </div>
+	         <div class="controls">
+                <label for="range">视频进度: </label>
+		        <input type="range" id="range" max="100" min="0" step="1">
+		        <br>
+		        <label for="volume">播放音量: </label>
+		        <input type="range" id="volume" max="100" step="1">
+                <p>这个视频的持续时间是: <span></span> s.</p>
+                <p>当前播放时间是: <span></span> s.</p>
+	         </div>
+        </section>
+        <script src="../res/jquery-1.11.3.min.js"></script>
+        <script src="classMatter.js"></script>
+    </body>
+</html>

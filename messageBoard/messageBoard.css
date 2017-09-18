@@ -1,0 +1,163 @@
+@font-face{
+    font-family:"华康娃娃体";
+    src:url("../res/font-family/华康娃娃体W5(P).TTF");
+}
+@font-face{
+    font-family:"情书体";
+    src:url("../res/font-family/情书体.otf");
+}
+*{
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+
+    background-color: rgba(0,0,0,0);
+}
+
+div.header{
+    width: 800px;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+ul li{
+    list-style: none;
+}
+
+hr.hr1_1,hr.hr1_2{
+    width: 40%;
+    margin: 0;
+    border: 1px solid #aaa;
+}
+hr.hr1_2{
+    float: right;
+    margin-top: -30px;
+}
+div.liuyanban{
+    padding-left: 10px;
+    width: 160px;
+    height: 50px;
+    margin: -10px auto;
+    text-align: center;   
+}
+span.glyphicon-star{
+    float: left;
+    color:dodgerblue;
+    font-size: 20px;
+}
+h2{
+    float: left;
+    margin-top: -6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:dodgerblue;
+}
+p.fabiao{
+    font-family: "华康娃娃体";
+    font-size: 20px;
+    color:rgb(136,0,21);
+}
+p.zishu{
+    float: right;
+    margin-top: -35px;
+    font-family: "华文楷体";
+}
+span#zishu{
+    font-family: "华康娃娃体";
+    font-size: 20px;
+    font-weight: bolder;   
+}
+textarea {
+    width: 100%;
+    font-size: 15px;
+    resize: none;
+    color: #ccc;
+}
+textarea:focus{
+    border:1px solid rgb(225,73,0);
+}
+input {
+    background-color: aqua;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+label{
+    float: right;
+    margin-top: 3px;
+}
+
+input#niming{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 5px;
+}
+
+div.footer{
+    width: 900px;
+    margin: 80px auto;
+}
+p.liuyan{
+    font-size: 20px;
+    font-family: "华文楷体";
+}
+table{
+    width: 900px;
+    margin: 0 auto;
+}
+table tbody{
+    width: 900px;
+}
+table tbody.fixed{
+    table-layout: fixed;
+}
+table tbody tr{
+    width: 100%;
+}
+table tbody tr td{
+    word-break: break-all;
+}
+hr.hr2 {
+    border: 1px dotted #bbb;
+    width: 900px;
+}
+table tr td.tdhead{
+    width:120px;
+    text-align: center;
+}
+img.head {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+table tr td.username{
+    font-family: "情书体";
+    font-size: 18px;
+    font-weight: bolder;
+    color:dodgerblue;
+    letter-spacing: 5px;
+    width: 390px;
+ 
+}
+table tr td.date{
+    width: 390px;
+    text-align: right;
+}
+table tr td.content{  
+    text-align: justify;
+    text-align: left;
+}
+div#paging{
+    width: 900px;
+    margin: -50px auto;
+    padding-top: 20px;
+    border-top: 1px dashed #666;
+}
+
+
+
+
+

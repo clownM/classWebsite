@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0,0,0,0);
+}
+div.header{
+    width: 800px;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+ul{
+    margin-top: 150px;
+}
+ul li{
+    list-style: none;
+}
+
+hr.hr1_1,hr.hr1_2{
+    width: 38%;
+    margin: 0;
+    border: 1px solid #aaa;
+}
+hr.hr1_2{
+    float: right;
+    margin-top: -30px;
+}
+div.liuyanban{
+    padding-left: 10px;
+    width: 190px;
+    height: 50px;
+    margin: -10px auto;
+    text-align: center;   
+}
+span.glyphicon-star{
+    float: left;
+    color:dodgerblue;
+    font-size: 20px;
+}
+h2{
+    float: left;
+    margin-top: -6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:dodgerblue;
+}
+#wrap{
+    width:100%;
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 800px;
+}
+#wrap img{
+    width: 360px;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,100,255);
+    -webkit-box-reflect:below 10px -webkit-linear-gradient(top , rgba(0,0,0,0) 60%, rgba(0,0,0,.5) 100% );
+    transition: 1s;
+}
+#wrap img.left{
+    transform: rotateY(45deg) translateZ(-100px);
+}
+#wrap img.right{
+    transform: rotateY(-45deg)translateZ(-100px);
+    
+}
+#wrap img.middle{
+    transform: translateZ(100px);
+}
+div.footer{
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    border-left: 1px dotted rgb(0,100,255);
+    border-right: 1px dotted rgb(0,100,255);
+}
+p.intro{
+    text-indent: 2em;
+    font-size: 16px;
+    font-family: "华文楷体";
+}

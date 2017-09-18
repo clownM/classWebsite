@@ -1,0 +1,153 @@
+body{
+    padding: 30px;
+    background-color: rgba(0,0,0,0);
+}
+.wrap{
+    width: 400px;
+    margin: 60px auto;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    margin: 6px auto;
+}
+.login{
+    height: 364px;
+    width: 270px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+#head{
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.login p{
+    font-size: 1.5em;
+    color:#000; 
+    font-weight: 600;
+    margin-top: 12px;
+}
+.form{
+    height: 146px;
+}
+.success{
+    margin-top: 40px;
+}
+.success a{
+    line-height: 5;
+}
+.fail{
+    margin-top: 30px;
+}
+.fail a{
+    line-height: 3;
+}
+input{
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 25px;
+    background: transparent;
+    border: 1.5px solid #A0998D;
+}
+#foget{
+    font-family: "Tahoma";
+    margin-right: 40px;
+    text-align: left;
+    font-size: 15px;
+    vertical-align: middle;
+    
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left: -15px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+#submit{
+    width: 110px;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-left: -5px;
+    background: transparent;
+}
+.container a{
+    font-size: 1.em;
+}
+.wrap a{
+    margin-left: 10px;
+    font-size: 1.em;
+}
+#carousel{
+    width: 1000px;
+    height: 364px;
+    margin-left: 275px;
+    margin-top: -363px;
+}
+.note{
+    height: 364px;
+    width: 270px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+#note{
+    height: 40px;
+    margin-top: 0px;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 40px;
+    background-color:rgb(0,150,255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#note1{
+    height: 90px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+#note2{
+    height: 220px;
+    text-align: left;
+    margin-top: 10px;
+}
+.time{
+    text-align: right;
+}
+.distruction{
+    width: 1000px;
+    height: 364px;
+    margin-left: 275px;
+    margin-top: -362px;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    border-radius: 10px;
+}
+.distruction img{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.distruction p{
+    padding-top: 12px;
+    text-indent:2em;
+}
+.distruction p:first-of-type{
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 10px;
+    border-bottom: 2px solid #ccc;
+    background-color: rgb(0,150,255);
+    /*border-top-radius: 10px;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

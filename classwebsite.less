@@ -1,0 +1,31 @@
+.screen(@index, @size) {
+	z-index: @index;
+	@media screen and (max-width: @size){
+		display: none;
+	}
+}
+.datetime1,.datetime2,.datetime3{
+    position: absolute;
+    top: 0px;
+    line-height: 60px;
+    right: 0;
+    padding-right: 80px;
+    height: 60px;
+    font-family: "华康娃娃体";
+    text-align: right;
+
+}
+.datetime1{
+    width: 160px;
+    background-image: url(res/bgimg/date2_1.jpg);
+}
+.datetime2{
+    width: 240px;
+    background-image: url(res/bgimg/date2_2.jpg);
+    .screen(2,800px);
+}
+.datetime3{
+    width: 365px;
+    background-image: url(res/bgimg/date2_3.jpg);
+    .screen(3,1100px);
+}

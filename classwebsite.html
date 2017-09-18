@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>网络1301</title>
+        <link rel="stylesheet" href="res/bootstrap.min.css">
+        <link rel="stylesheet" href="classwebsite.css">
+        <link rel="stylesheet/less" href="classwebsite.less">
+    </head>
+    <body>
+        <div class="film">
+           <div class="wrap_small">
+               <img src="res/icon/sina.jpg" alt="" id="sina">
+           </div>
+           <div class="wrap_big">
+               
+           </div>
+            <img src="res/icon/classLogo.png" alt="" id="classlogo">
+            <div class="ch">网络1301</div>
+            <div class="en">NETWORK ENGINEERING</div>
+            <div class="datetime1"></div>
+            <div class="datetime2"></div>
+            <div class="datetime3"></div>
+            <div class="bgm">
+                <audio src="res/bgm/Try%20Everything.mp3" id="bgm" autoplay loop></audio>
+                <img src="res/bgm/mute.png" alt="图标加载失败" id="mute" class="bgm_hide">
+                <img src="res/bgm/trum.png" alt="图标加载失败" id="trum" >
+            </div>
+            <nav>
+                <ul>
+                    <li><a id="homepage" class="a1 active">首页</a></li>
+                    <li><a id="classintro" class="a1">班级简介</a></li>
+                    <li><a id="classmembers" class="a1">班级成员</a></li>
+                    <li><a id="classmatter" class="a1">班级风采</a></li>
+                    <li><a id="messageboard" class="a1 ">留言板</a></li>
+                </ul>
+            </nav>
+            <hr>
+
+            
+            <!--//首页-->
+            <iframe src="homePage/homePage.html" frameborder="0" scrolling="no" width="100%" height="900px" id="iframe_homepage" ></iframe>
+            <!--//班级简介-->
+            <iframe src="classIntro/classIntro.html" frameborder="0" scrolling="no" width="100%" height="900px" id="iframe_classintro" class="iframe_hide"></iframe>
+            <!--//班级成员-->
+            <iframe src="classMembers/classMembers.html" frameborder="0" width="100%" height="700px" id="iframe_classmembers" class="iframe_hide" scrolling="no"></iframe>
+            <!--//班级风采-->
+            <iframe src="classMatter/classMatter.html" frameborder="0" scrolling="no" width="100%" height="1000px" id="iframe_classmatter" class="iframe_hide"></iframe>
+            <!--//留言板-->
+            <iframe src="messageBoard/messageBoard.php" frameborder="0" scrolling="no" width="100%"
+                height="900px" id="iframe_messageboard" class="iframe_hide"
+            ></iframe>
+            
+            
+            <footer>
+                <img src="res/icon/schoolBage.png" alt="" class="schoolbadge">
+                <h1 class="xiaoxun">诚毅勤朴</h1>
+                <div class="copyright">&copy;2016WEB大作业&nbsp;&nbsp;&nbsp;毛晨&nbsp;&nbsp;高楚楚</div>
+                <table>
+                    <tr>
+                        <td><a href="http://iee.zjgsu.edu.cn">学院官网</a></td>
+                        <td class="mid"></td>
+                        <td><a href="http://124.160.64.163/jwglxt/xtgl/dl_loginForward.html">新教务系统</a></td>
+                    </tr>
+                    <tr class="mid"></tr>
+                    <tr>
+                        <td><a href="http://www.hzic.edu.cn">浙江工商大学官网</a></td>
+                        <td class="mid"></td>
+                        <td><a href="http://10.11.107.3/index.asp">教务处</a></td>
+                    </tr>
+                </table>
+            </footer>
+        </div>
+        <script src="res/jquery-1.11.3.min.js"></script>
+        <script src="res/less.min.js"></script>
+        <script src="classwebsite.js"></script>
+    </body>
+</html>
